@@ -1,5 +1,10 @@
 Paribu Test
 
+## Installation
+1. Clone the repository: git clone https://github.com/your-username/paribu-test.git
+2. Install the dependencies: npm install
+3. Run the app: npm start
+
 
 ## Libraries used
     "@react-navigation/native": "^6.1.6",
