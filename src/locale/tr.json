@@ -1,0 +1,23 @@
+{
+    "translation": {
+        "common-ok": "Tamam",
+        "common-history": "Geçmiş",
+        "secure-markets": "Piyasalar",
+        "secure-favorites": "FAVORİLER",
+        "secure-try": "TRY",
+        "secure-usdt": "USDT",
+        "secure-buy-crypto": "{{currency}} AL",
+        "secure-sell-crypto": "{{currency}} SAT",
+        "secure-how-much-currency-to-buy": "Kaç {{usingCurrency}}’lik {{buyingCurrency}} almak istiyorsunuz?",
+        "secure-how-much-currency-to-sell": "Kaç {{usingCurrency}}’lik {{sellingCurrency}} satmak istiyorsunuz?",
+        "secure-user-balance": "Bakiyeniz: {{userBalance}}",
+        "secure-approximate-buying-amount": "Alacağınız miktar (yaklaşık)",
+        "secure-approximate-selling-amount": "Satacağınız miktar (yaklaşık)",
+        "secure-amount-input-error-max-buy": "Maksimum {{max}} {{currency}} alabilirsiniz.",
+        "secure-amount-input-error-max-sell": "Maksimum {{max}} {{currency}} satabilirsiniz.",
+        "secure-amount-input-error-min-buy": "Minimum {{min}} {{currency}} alabilirsiniz.",
+        "secure-amount-input-error-min-sell": "Minimum {{min}} {{currency}} satabilirsiniz.",
+        "secure-amount-input-error-empty": "Lütfen bir miktar girin.",
+        "secure-amount-input-insufficient-amount": "Yetersiz bakiye"
+    }
+}
