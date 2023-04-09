@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Campton-Bold.ttf",
+      "sha1": "53c741be2bc231ba2e93ba90f77c791e4e42fa11"
+    },
+    {
+      "path": "assets/fonts/Campton-Medium.ttf",
+      "sha1": "3aee8fd6e5f75ca2db9107b985084b34b2251a8c"
+    }
+  ]
+}
