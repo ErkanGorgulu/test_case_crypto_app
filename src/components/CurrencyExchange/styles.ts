@@ -32,8 +32,12 @@ export const styles = StyleSheet.create({
         color: Colors.mountainMist,
     },
     chartContainer: {
+        overflow: 'hidden',
         width: 66,
-        borderWidth: 1,
+        height: 40,
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingTop: 20,
     },
     valueAndChangeContainer: {
         flex: 3,

@@ -7,6 +7,8 @@ import { styles } from './styles';
 import { useNavigation } from '@react-navigation/native';
 import { ScreenNames } from '../../utils/screenNames';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import LineChart from '../LineChart/LineChart';
+import { Colors } from '../../utils/colors';
 
 
 
@@ -27,7 +29,9 @@ export function CurrencyExchange(props: CurrencyExchangeProps) {
                 <Text style={styles.currency}>{exchange?.currency}</Text>
             </View>
         </View>
-        <View style={styles.chartContainer} />
+        <View style={styles.chartContainer} >
+            <LineChart data={exchange.chart} height={40} width={66} color={Number(exchange.change) > 0 ? Colors.persianGreen : Colors.darkTerraCotta} />
+        </View>
         <View style={styles.valueAndChangeContainer}>
             <Text style={styles.value}>{exchange?.value}</Text>
             <PriceChange value={exchange.change} />
