@@ -24,3 +24,10 @@ Paribu Test
     "react-native-svg": "^13.9.0",
     "react-native-svg-transformer": "^1.0.0",
     "react-native-tab-view": "^3.5.1"
+    
+   
+
+<div>
+<img src="https://user-images.githubusercontent.com/16388246/230785352-bced06aa-458e-4af6-ae16-04269da9eaf0.png" width="200px" height="400px" />
+<img src="https://user-images.githubusercontent.com/16388246/230785413-f3c39da0-4d13-451f-85d7-2a7bd6c5c0f3.png" width="200px" height="400px" />
+</div>
