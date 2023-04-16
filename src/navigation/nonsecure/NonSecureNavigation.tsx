@@ -1,22 +1,14 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-function HomeScreen() {
-    return (
-        // eslint-disable-next-line react-native/no-inline-styles
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>Home Screen</Text>
-        </View>
-    );
-}
+import LoginScreen from '../../screens/nonsecure/Login/Login';
+import { ScreenNames } from '../../utils/screenNames';
 
 const Stack = createNativeStackNavigator();
 
 function NonSecureNavigation() {
     return (
-        <Stack.Navigator>
-            <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Navigator screenOptions={{headerShown: false}}>
+            <Stack.Screen name={ScreenNames.Login} component={LoginScreen} />
         </Stack.Navigator>
     );
 }

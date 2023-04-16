@@ -1,4 +1,4 @@
-package com.paribu_test;
+package com.test_case_app;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

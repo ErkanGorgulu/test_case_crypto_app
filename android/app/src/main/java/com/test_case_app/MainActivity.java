@@ -1,4 +1,4 @@
-package com.paribu_test;
+package com.test_case_app;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
@@ -14,7 +14,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "paribu_test";
+    return "test_case_app";
   }
   @Override
   protected void onCreate(Bundle savedInstanceState) {

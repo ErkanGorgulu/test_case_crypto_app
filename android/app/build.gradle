@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.paribu_test"
+    namespace "com.test_case_app"
     defaultConfig {
-        applicationId "com.paribu_test"
+        applicationId "com.test_case_app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

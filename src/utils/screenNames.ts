@@ -1,5 +1,5 @@
 export enum ScreenNames {
-    Home = 'Home',
+    Login = 'Login',
     CryptoListScreen = 'CryptoListScreen',
     CryptoDetailScreen = 'CryptoDetailScreen',
 }

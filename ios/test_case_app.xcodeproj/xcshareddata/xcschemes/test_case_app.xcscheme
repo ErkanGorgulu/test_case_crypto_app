@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "paribu_test.app"
-               BlueprintName = "paribu_test"
-               ReferencedContainer = "container:paribu_test.xcodeproj">
+               BuildableName = "test_case_app.app"
+               BlueprintName = "test_case_app"
+               ReferencedContainer = "container:test_case_app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "paribu_testTests.xctest"
-               BlueprintName = "paribu_testTests"
-               ReferencedContainer = "container:paribu_test.xcodeproj">
+               BuildableName = "test_case_appTests.xctest"
+               BlueprintName = "test_case_appTests"
+               ReferencedContainer = "container:test_case_app.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "paribu_test.app"
-            BlueprintName = "paribu_test"
-            ReferencedContainer = "container:paribu_test.xcodeproj">
+            BuildableName = "test_case_app.app"
+            BlueprintName = "test_case_app"
+            ReferencedContainer = "container:test_case_app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "paribu_test.app"
-            BlueprintName = "paribu_test"
-            ReferencedContainer = "container:paribu_test.xcodeproj">
+            BuildableName = "test_case_app.app"
+            BlueprintName = "test_case_app"
+            ReferencedContainer = "container:test_case_app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

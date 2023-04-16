@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import SecureNavigation from './src/navigation/secure/SecureNavigation';
@@ -9,9 +9,8 @@ import en from './src/locale/en.json';
 import tr from './src/locale/tr.json';
 import { DEFAULT_LANGUAGE } from './src/utils/constants';
 import 'intl-pluralrules';
-import { useAtom } from 'jotai';
+import { useAtomValue } from 'jotai';
 import { userAtom } from './src/utils/atoms';
-import { urls } from './src/services/urls';
 
 
 const resources = {
@@ -27,17 +26,8 @@ i18n.use(initReactI18next).init({
 
 function App(): JSX.Element {
 
-  const [user, setUser] = useAtom(userAtom);
-  useEffect(() => {
-    fetch(urls.user, {
-      method: 'GET',
-    }).then((response) => response.json()).then((responseData) => {
-      setUser(responseData);
-    }).catch((error) => {
-      console.error(error);
-    }
-    );
-  }, [setUser]);
+  const user = useAtomValue(userAtom);
+
   const isLoggedIn = user.id.length > 0;
   return (
     <SafeAreaProvider>
